@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+    background-image: url(fondoo.png);
+    font-family: "arial";
+    padding-top: 90px;	
+}
+.box {
+	position: absolute;
+		left: 10px;
+	top:20px;
+	z-index: 2;
+}
+.Layer_1 {
+    background-image: url(Layer%201.png);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    z-index: 2;
+}
+.Layer_3 {
+    background-image: url(marcos%20y%20textoOO.png);
+    position: absolute;
+    border-image-slice: 3px 1px 1px 3px;
+    padding-left: 103px;
+    left: 300px;
+    top: 0px;
+    width: 720px;
+    height: 150px;
+    z-index: 3;
+}
+.Shape_2 {
+    background-image: url(Shape%202.png);
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    width: 13%;
+    z-index: 4;
+}
+.capa {
+    background-image: url(columna%201.png);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 144px;
+    height: 100%;
+    z-index: 1;
+}
+.capa2 {
+    background-image: url(columna%202.png);
+    position: absolute;
+    right:0px;
+    width: 144px;
+    height:100%;
+    z-index: 1;
+}
+h1 {
+    display: flex;
+    box-sizing: 50%;
+    color: #FF80AB;
+    padding-top: 50px;
+    padding-right: 9px;
+    padding-left: 25%;
+    padding-bottom: 4px;
+    font-size: 60px;
+    border-image-width: 3px;
+}
+a { color:#FF80AB;
+}
+p {
+    padding-left: 160px;
+    font-size: 20px;
+    padding-right: 52px;
+	color: antiquewhite
+}
+ul {
+    padding-left:180px;
+	font-size: 20px;
+	color: antiquewhite
+}body h1 {
+}
